@@ -23,7 +23,6 @@ import java.util.Objects;
 @CrossOrigin(origins = "*")
 public class UsersConroller {
     private final MapStruct mapper;
-
     private  MatchmakerRepository matchmakerRepository;
     private ManRepository manRepository;
     private WomanRepository womanRepository;
